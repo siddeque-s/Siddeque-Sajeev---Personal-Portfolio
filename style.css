@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbarcss{
+    height: 80px;
+    background-color: rgb(232, 238, 238);
+}
+
+.navbarcss a,.navbarcss img{
+    height: 100%;
+}
+.navitems{
+    transition: 0.2s;
+}
+
+.navitems:hover{
+    border-bottom: 2px solid rgb(8, 84, 8);
+}
