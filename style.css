@@ -10,7 +10,8 @@ body{
  
   background: url(./assets/istockphoto-1166982232-612x612.jpg) no-repeat center fixed;
   background-size: cover;
-  margin-top: ;
+  margin-top: 60px;
+  
 }
 
 .navbar {
@@ -93,6 +94,8 @@ body{
 .imagesection1{
   width: 100%;
   max-width: 350px;
+  height: 100%;
+  max-height: 350px;
  
   aspect-ratio: 1/1;
   border-radius: 50%;
@@ -106,8 +109,23 @@ body{
 .sec1contenet{
   margin-top: 6%;
 }
+.sec1contenet p{
+  font-size: large;
+  font-weight: 600;
+}
 
 
+/* section 2 about */
+#about{
+  margin-top: 10%;
+}
+.section2contenet p{
+  font-size: large;
+
+}
+.aboutmeImageDiv img{
+  border-radius: 5px;
+}
 
 
 
