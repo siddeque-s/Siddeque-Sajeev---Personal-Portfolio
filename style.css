@@ -10,6 +10,7 @@ body{
  
   background: url(./assets/istockphoto-1166982232-612x612.jpg) no-repeat center fixed;
   background-size: cover;
+  margin-top: ;
 }
 
 .navbar {
@@ -74,8 +75,10 @@ body{
 
 
 /* home */
-#home{
-    margin-top: 100px;
+
+.sec1div{
+  margin-top: 8%;
+  
 }
 
 .hire{
@@ -86,6 +89,29 @@ body{
     border-radius: 10px;
     
 }
+
+.imagesection1{
+  width: 100%;
+  max-width: 350px;
+ 
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  
+}
+.imagesection1 img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.sec1contenet{
+  margin-top: 6%;
+}
+
+
+
+
+
+
 
 
 /* section 4    skills */
