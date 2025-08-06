@@ -19,6 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+     
 
     <!-- bootstrap -->
     <link
@@ -27,77 +28,82 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    
+    <!-- css -->
+        <link rel="stylesheet" href="./style.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
 
-    <!-- css -->
-    <link rel="stylesheet" href="./style.css" />
+
   </head>
 
   <body>
-    <!-- navbar -->
-    <nav class="navbarcss navbar navbar-expand-lg">
-      <div class="navbarcss container-fluid">
-        <a class="navbar-brand" href="#">
-          <img
-            src="./assets/logo-removebg-preview.png"
-            class="img-fluid"
-            alt="Logo"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="navitems nav-link active" aria-current="page" href="#"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="navitems nav-link active" aria-current="page" href="#"
-                >About</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="navitems nav-link active" aria-current="page" href="#"
-                >Services</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="navitems nav-link active" aria-current="page" href="#"
-                >Skills</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="navitems nav-link active" aria-current="page" href="#"
-                >Projects</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="navitems nav-link active" aria-current="page" href="#"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+   
+    <!--  Navbar -->
+<nav class="navbar navbar-expand-lg w-100">
+  <div class="container-fluid ms-5 me-5">
+    <a class="navbar-brand" href="#">
+      <img
+        src="./assets/logo-removebg-preview.png"
+        class="nav-logo"
+        alt="Logo"
+      />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item me-3"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item me-3"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item me-3"><a class="nav-link" href="#">Skills</a></li>
+        <li class="nav-item me-3"><a class="nav-link" href="#">Projects</a></li>
+        <li class="nav-item me-3"><a class="nav-link" href="#">Contacts</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <section id="home" class="py-5">
-      <div class="container">
+
+
+
+
+<!-- <nav class="navbarcss navbar navbar-expand-lg w-100">
+  <div class="container-fluid navbarcsss ms-5 me-5">
+    <a class="navbar-brand" href="#">
+      
+    </a>
+
+
+    <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="navitems nav-link active" aria-current="page" href="#home">Home</a>
+        <a class="navitems nav-link active" href="#about">About</a>
+        <a class="navitems nav-link active" href="#skills">Services</a>
+        <a class="navitems nav-link active" href="#projects">Projects</a>
+        <a class="navitems nav-link active" href="#contactme">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav> -->
+
+
+
+
+  <!-- section 1 -->
+    <section id="home" class="">
+      <div class="container sec1div">
         <div class="row text-center text-md-start">
           <!-- Image First on Medium & Small -->
           <div class="col-md-6 order-md-2">
@@ -256,7 +262,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div>s
 
           <div class="col-lg-4 col-md-6  col-12">
             <div class="card projectseach" style="width: 18rem">
@@ -334,8 +340,9 @@
       
       <div class="container">
         <h2 class="text-center">Contact Me</h2>
-        <div class="text-center">
-          <label class="contactmeLabel " for="">Name:</label>
+        <div class="d-flex justify-content-center ">
+          <div class="w-50 ">
+             <label class="contactmeLabel  " for="">Name:</label>
         <br>
         <input class="Contactinputbox" placeholder="Enter your name" type="text">
         <br>
@@ -355,12 +362,19 @@
         <a href="">Submit</a>
         
 
+          </div>
+         
+
 
 
         </div>
         
       </div>
      </section>
+  
+
+
+
   </body>
 </html>
 
