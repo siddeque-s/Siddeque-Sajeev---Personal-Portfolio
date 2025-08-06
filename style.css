@@ -172,10 +172,35 @@ body{
 
 
 /* section 5    projects */
+#projects{
+  margin-top: 10%;
+  
+}
 .projectseach{
     height: 480px;
 }
 .projrctsgit{
     text-decoration: none;
     margin-right: 25px;
+}
+
+
+
+
+.footer-section {
+  background-color: #080667; /* dark background for footer */
+  color: #f5f5f5; /* gold text */
+  font-size: 0.97rem;
+ 
+  bottom: 0;
+  position: relative;
+  bottom: -73px;
+  width: 100%;
+
+}
+
+.footer-section p {
+  color: aliceblue;
+  margin: 0;
+  font-weight: 500;
 }
