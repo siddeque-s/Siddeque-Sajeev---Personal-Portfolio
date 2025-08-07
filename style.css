@@ -113,11 +113,22 @@ body{
   font-size: large;
   font-weight: 600;
 }
+@media screen and (min-width:768px) and (max-width:992px) {
+  #imageidsec1{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  
+}
 
 
 /* section 2 about */
 #about{
   margin-top: 10%;
+  
+  
 }
 .section2contenet p{
   font-size: large;
@@ -184,9 +195,25 @@ body{
     margin-right: 25px;
 }
 
+/* section 6 contact me */
+#contactme{
+  margin-top: 10%;
+}
+.contactmeLabel{
+  font-size: larger;
+}
+.Contactinputbox{
+  border-radius: 5px;
+  width: 64%;
+  height: 12%;
+}
+.messageOrQuery{
+  border-radius: 5px;
+}
 
 
 
+/* footer */
 .footer-section {
   background-color: #080667; /* dark background for footer */
   color: #f5f5f5; /* gold text */
@@ -194,7 +221,7 @@ body{
  
   bottom: 0;
   position: relative;
-  bottom: -73px;
+  
   width: 100%;
 
 }
