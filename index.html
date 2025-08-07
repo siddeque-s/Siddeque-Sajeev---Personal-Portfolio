@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- aos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -100,33 +102,44 @@
 
           <!-- Text Second -->
           <div class="sec1contenet col-lg-6 order-lg-1">
-            <h3>Hi Everyone,</h3>
-            <h1>I'm <span class="highlight">Siddeque Sajeev</span></h1>
-            <h2>Aspiring Full Stack Developer</h2>
-            <p>
+            <h3 class="mediasec1edit" data-aos="fade-down">Hi Everyone,</h3>
+            <h1  class="mediasec1edit"data-aos="fade-down" data-aos-delay="400">I'm <span class="typewriter"> Siddeque Sajeev </span></h1>
+
+            <h2 class="mediasec1edit" data-aos="fade-down" data-aos-delay="800">Aspiring Full Stack Developer</h2>
+            <p class="mediasec1edit" data-aos="fade-down" data-aos-delay="1200">
               I love crafting modern, user-friendly web applications using the
               MERN stack.
               <br />
               Always learning, always building!
             </p>
-            <br />
-
-            <a href="www.linkedin.com/in/siddequesajeev" target="_blank"
+            <br>
+            <div class="animationDiv mediasec1edit" data-aos="fade-down" data-aos-delay="1600">
+              <a  href="https://www.linkedin.com/in/siddequesajeev" target="_blank"
               ><i class="fa-brands fa-linkedin fs-2"></i
             ></a>
             <a href="https://github.com/siddeque-s" target="_blank">
-              <i class="fa-brands fa-github fs-2"></i><br
-            /></a>
+              <i class="fa-brands fa-github fs-2"></i></a>
+              <br>
+              <br>
+              
 
-            <br />
-            <a href="" class="hire" id="HireMe">Hire Me</a>
+            
+            <a data-aos="fade-down" data-aos-delay="5000" href="" class="hire" id="HireMe">Hire Me</a>
             <a
+            data-aos="fade-down"
+            data-aos-delay="7000"
               href="./assets/SIDDEQUE - Resume.pdf"
               target="_blank"
               class="hire"
               id="CV"
               >Download CV</a
             >
+              
+            </div>
+            
+
+            
+              
           </div>
         </div>
       </div>
@@ -135,17 +148,17 @@
     <!-- section2 -->
     <section id="about">
       <div class="container">
-        <h2 class="text-center">
+        <h2 class="text-center" data-aos="fade-down">
           <span id="aboutHead">About Me</span>
         </h2>
-        <hr />
+        <hr data-aos="fade-down" />
         <div class="row">
           <div class="col-lg-5 d-none d-lg-block">
             <div
               class="aboutmeImageDiv ms-5"
               style="width: 18rem; height: 22rem"
             >
-              <img class="img-fluid w-100" src="./assets/aboutme.png" alt="" />
+              <img data-aos="fade-down" class="img-fluid w-100" src="./assets/aboutme.png" alt="" />
             </div>
           </div>
           <div
@@ -153,21 +166,21 @@
           >
             <br />
             <div>
-              <p>
+              <p data-aos="fade-down">
                 I'm <strong>Siddeque Sajeev</strong>, a passionate Full Stack
                 Developer currently learning the MERN stack. I enjoy creating
                 dynamic and user-friendly web applications, and I’m focused on
                 building real-world projects that solve real problems.
               </p>
 
-              <p>
+              <p data-aos="fade-down">
                 I specialize in
                 <strong>JavaScript, React, Node.js, and MongoDB</strong>, and
                 I'm currently working on improving my backend and deployment
                 skills.
               </p>
 
-              <p>
+              <p data-aos="fade-down">
                 I completed my
                 <strong
                   >B.Tech degree from CUSAT (Cochin University of Science and
@@ -178,14 +191,14 @@
                 experience in building modern web applications.
               </p>
 
-              <ul class="list-unstyled">
+              <ul class="list-unstyled" data-aos="fade-down">
                 <li>🌐 Passionate about building responsive websites</li>
                 <li>⚙️ Strong understanding of MERN stack</li>
                 <li>🚀 Focused on real-world problem solving</li>
               </ul>
               <br />
 
-              <a href="./assets/SIDDEQUE - Resume.pdf" class="hire" id="CV"
+              <a data-aos="fade-down" href="./assets/SIDDEQUE - Resume.pdf" class="hire" id="CV"
                 >Download CV</a
               >
             </div>
@@ -196,10 +209,10 @@
 
     <!-- section4 -->
     <section id="skills">
-      <h2 class="text-center mb-3">Skills</h2>
+      <h2 class="text-center mb-3" data-aos="fade-down">Skills</h2>
 
       <div class="container" style="width: 50rem">
-        <hr />
+        <hr data-aos="fade-down"/>
         <br />
         <div class="eachSkills mb-4">
           <div class="sillsup d-flex justify-content-between">
@@ -208,7 +221,7 @@
           </div>
           <div class="statusbar">
             <div class="statusBarAbove"></div>
-            <div class="statusBarAbove" id="html"></div>
+            <div class="statusBarAbove" id="html" data-aos="fade-right"></div>
           </div>
         </div>
 
@@ -219,7 +232,7 @@
           </div>
           <div class="statusbar">
             <div class="statusBarAbove"></div>
-            <div class="statusBarAbove" id="css"></div>
+            <div class="statusBarAbove" id="css" data-aos="fade-right"></div>
           </div>
         </div>
 
@@ -230,7 +243,7 @@
           </div>
           <div class="statusbar">
             <div class="statusBarAbove"></div>
-            <div class="statusBarAbove" id="bootstrap"></div>
+            <div class="statusBarAbove" id="bootstrap" data-aos="fade-right"></div>
           </div>
         </div>
 
@@ -241,7 +254,7 @@
           </div>
           <div class="statusbar">
             <div class="statusBarAbove"></div>
-            <div class="statusBarAbove" id="js"></div>
+            <div class="statusBarAbove" id="js" data-aos="fade-right"></div>
           </div>
         </div>
       </div>
@@ -250,12 +263,13 @@
     <!-- section 5    -->
     <section id="projects">
       <div class="container">
-        <h2 class="text-center" style="margin-bottom: 3%">My Projects</h2>
+        <h2 data-aos="fade-down" class="text-center" style="margin-bottom: 1%">My Projects</h2>
+        <hr data-aos="fade-down">
         <div class="row g-4 d-flex justify-content-center">
-          <div class="col-lg-4 col-md-6 col-12">
+          <div data-aos="flip-left" class="col-lg-4 col-md-6 col-12">
             <div class="card projectseach" style="width: 18rem">
               <img
-                src="./assets/logo-removebg-preview.png"
+                src="./assets/ChatGPT Image Aug 7, 2025, 07_02_00 PM.png"
                 class="card-img-top"
                 alt="..."
               />
@@ -283,9 +297,9 @@
           </div>
 
           <div class="col-lg-4 col-md-6 col-12">
-            <div class="card projectseach" style="width: 18rem">
+            <div data-aos="flip-left" class="card projectseach" style="width: 18rem">
               <img
-                src="./assets/logo-removebg-preview.png"
+                src="./assets/resized_image_1.png"
                 class="card-img-top"
                 alt="..."
               />
@@ -313,9 +327,9 @@
           </div>
 
           <div class="col-lg-4 col-md-6 col-12">
-            <div class="card projectseach" style="width: 18rem">
+            <div data-aos="flip-left" class="card projectseach" style="width: 18rem">
               <img
-                src="./assets/logo-removebg-preview.png"
+                src="./assets/resized_image_3.png"
                 class="card-img-top"
                 alt="..."
               />
@@ -398,4 +412,8 @@
       </div>
     </footer>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+  AOS.init();
+</script>
 </html>
